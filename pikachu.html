@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background: black;
+
+        }
+
+        #baslik {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 70px;
+        }
+
+        h1 {
+            color: #f7cc3d;
+            margin: 50px;
+            font-size: 90px;
+            transition: 1s all;
+        }
+        h1:hover{
+            color: #f5dc89;
+            font-size: 95px;
+            transform: scale(1);
+        }
+
+        p {
+            color: white;
+            width: 40%;
+            text-align: center;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+        #vid {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="baslik">
+        <h1>PIKACHU</h1>
+        <p>Pikachu, <i>783</i> hayali <strong>Pokémon</strong> karakteri içindeki Pika türünden çıkmış bir <s>Pokémon</s>'dur. <sub>Kolaylıkla fark edilen</sub>
+            özellikleri; sarı tüylerinin ve <sup>sırtında kahverengi çizgilerinin olmasıdır.</sup> Yanaklarındaki kırmızı
+            noktalardan elektrik salınımı yapar.</p>
+    </div>
+    <div id="vid">
+        <video muted autoplay loop src="./pikachu1.mp4"></video>
+    </div>
+</body>
+
+</html>
